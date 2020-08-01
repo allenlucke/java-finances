@@ -8,7 +8,7 @@ import java.sql.Timestamp;
 @Table(name = "income")
 public class Income {
 
-	public Income() super(); }
+	public Income() {}
 
 	public Income(long id, String income_name, Boolean recieved, Timestamp due_on, Timestamp recieved_on, Boolean recurring, Long amount_expected, Long amount_actual, Long user_Id) {
 		this.id = id;
